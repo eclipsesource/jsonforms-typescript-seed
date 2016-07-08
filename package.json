@@ -1,0 +1,32 @@
+{
+  "name": "jsonforms-typescript-seed",
+  "version": "0.0.1",
+  "description": "A seed project for a JSONForms-based project with Typescript",
+  "main": "/",
+  "scripts": {
+    "start": "webpack --config webpack/webpack.dev.js --watch --NODE_ENV=dev",
+    "build": "webpack --config webpack/webpack.build.js --NODE_ENV=production",
+    "postinstall": "typings install"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.5.5",
+    "angular-route": "1.5.5",
+    "bootstrap": "3.3.6",
+    "jquery": "2.2.4",
+    "jsonforms": "0.0.24"
+  },
+  "devDependencies": {
+    "browser-sync": "2.12.8",
+    "browser-sync-webpack-plugin": "1.0.1",
+    "css-loader": "0.23.1",
+    "html-webpack-plugin": "2.17.0",
+    "raw-loader": "0.5.1",
+    "style-loader": "0.13.1",
+    "ts-loader": "0.8.2",
+    "typescript": "1.8.10",
+    "typings": "1.0.4",
+    "url-loader": "0.5.7",
+    "webpack": "1.13.1"
+  }
+}
