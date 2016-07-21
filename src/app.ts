@@ -11,5 +11,5 @@ class MyController {
   };
 }
 
-angular.module('app', ['jsonforms'])
+angular.module('app', ['jsonforms', 'ui.bootstrap'])
   .controller('MyController', MyController);

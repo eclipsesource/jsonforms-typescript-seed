@@ -20,6 +20,16 @@ export const UISchema = {
     },
     {
       "type": "Control",
+      "label": "Rating",
+      "scope": {
+        "$ref": "#/properties/rating"
+      },
+      "options": {
+        "multi": true
+      }
+    },
+    {
+      "type": "Control",
       "label": "Done?",
       "scope": {
         "$ref": "#/properties/done"
