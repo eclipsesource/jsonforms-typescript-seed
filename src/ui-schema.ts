@@ -1,17 +1,29 @@
 export const UISchema = {
-    "type": "HorizontalLayout",
-    "elements": [
-        {
-            "type": "Control",
-            "scope": { "$ref": "#/properties/name" }
-        },
-        {
-            "type": "Control",
-            "scope": { "$ref": "#/properties/age" }
-        },
-        {
-            "type": "Control",
-            "scope": { "$ref": "#/properties/gender" }
-        },
-    ]
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Name",
+      "scope": {
+        "$ref": "#/properties/name"
+      }
+    },
+    {
+      "type": "Control",
+      "label": "Description",
+      "scope": {
+        "$ref": "#/properties/description"
+      },
+      "options": {
+        "multi": true
+      }
+    },
+    {
+      "type": "Control",
+      "label": "Done?",
+      "scope": {
+        "$ref": "#/properties/done"
+      }
+    }
+  ]
 }
