@@ -1,5 +1,6 @@
 import {Schema} from  "./schema.ts";
 import {UISchema} from "./ui-schema";
+import './main.css';
 
 class MyController {
   schema = Schema;
