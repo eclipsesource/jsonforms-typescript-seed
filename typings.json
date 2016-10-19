@@ -4,11 +4,10 @@
     "angular-route": "registry:dt/angular-route#1.3.0+20160317120654",
     "bootstrap": "registry:dt/bootstrap#3.3.5+20160316155526",
     "jquery": "registry:dt/jquery#1.10.0+20160417213236",
+    "lodash": "github:DefinitelyTyped/DefinitelyTyped/lodash/lodash.d.ts#5ea7d92bb39c7a26f49dc3de2c566d5ae325e19e",
+    "require": "registry:dt/require#2.1.20+20160919185614",
     "source-map": "registry:dt/source-map#0.0.0+20160317120654",
     "uglify-js": "registry:dt/uglify-js#2.6.1+20160316155526"
-  },
-  "dependencies": {
-    "lodash": "registry:npm/lodash#4.0.0+20160416211519"
   },
   "globalDevDependencies": {
     "angular-mocks": "registry:dt/angular-mocks#1.3.0+20160425155016",

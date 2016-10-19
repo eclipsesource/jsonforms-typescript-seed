@@ -1,29 +1,29 @@
 export const UISchema = {
-  "type": "VerticalLayout",
-  "elements": [
+  'type': 'VerticalLayout',
+  'elements': [
     {
-      "type": "Control",
-      "label": "Name",
-      "scope": {
-        "$ref": "#/properties/name"
+      'type': 'Control',
+      'label': 'Name',
+      'scope': {
+        '$ref': '#/properties/name'
       }
     },
     {
-      "type": "Control",
-      "label": "Description",
-      "scope": {
-        "$ref": "#/properties/description"
+      'type': 'Control',
+      'label': 'Description',
+      'scope': {
+        '$ref': '#/properties/description'
       },
-      "options": {
-        "multi": true
+      'options': {
+        'multi': true
       }
     },
     {
-      "type": "Control",
-      "label": "Done?",
-      "scope": {
-        "$ref": "#/properties/done"
+      'type': 'Control',
+      'label': 'Done?',
+      'scope': {
+        '$ref': '#/properties/done'
       }
     }
   ]
-}
+};

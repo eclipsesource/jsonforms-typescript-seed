@@ -1,15 +1,15 @@
 export const Schema = {
-  "type": "object",
-  "properties": {
-    "name": {
-      "type": "string"
+  'type': 'object',
+  'properties': {
+    'name': {
+      'type': 'string'
     },
-    "description": {
-      "type": "string"
+    'description': {
+      'type': 'string'
     },
-    "done": {
-      "type": "boolean"
+    'done': {
+      'type': 'boolean'
     }
   },
-  "required": ["name"]
-}
+  'required': ['name']
+};
